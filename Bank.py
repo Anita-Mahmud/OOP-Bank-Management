@@ -41,7 +41,7 @@ class User:
                 self.transactions.append(f'Loan: {amount} taka')
                 print(f'{amount} taka loan has been sanctioned')
             else:
-                print(f'{amount} taka loan cannot be granted')
+                print(f'{amount} taka loan cannot be granted because of insufficient amount')
         else:
             print(f'Sorry Loan feature is off right now')
 
